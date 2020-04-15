@@ -1,0 +1,38 @@
+<div [hidden]="submitted">
+  <h1 i18n>Create your own seal</h1>
+  <p i18n>Stempel is a simple app that lets you create your own electronic seals, e.g. to electronically sign PDF documents.</p>
+  <p i18n>Please fill in your details below to create your own stamp.</p>
+  <form (ngSubmit)="onSubmit()" #sealForm="ngForm">
+    <div class="form-group">
+      <label for="company" i18n>Company</label>
+      <input type="text" class="form-control" id="company" required [(ngModel)]="seal.company" name="company" #company="ngModel">
+      <div [hidden]="company.valid || company.pristine" class="alert alert-danger" i18n>
+        Company is required
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="address1" i18n>Address</label>
+      <textarea rows="2" class="form-control" id="address" required [(ngModel)]="seal.address" name="address" #address="ngModel"></textarea>
+      <div [hidden]="address.valid || address.pristine" class="alert alert-danger" i18n>
+        Address is required
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="address2" i18n>Phone</label>
+      <input type="text" class="form-control" id="address2" required [(ngModel)]="seal.phone" name="phone" #phone="ngModel">
+      <div [hidden]="phone.valid || phone.pristine" class="alert alert-danger" i18n>
+        Phone is required
+      </div>
+    </div>
+    <button type="button" class="btn btn-default" (click)="newSeal(); sealForm.reset()" i18n>Reset</button>
+    <button type="submit" class="btn btn-success" [disabled]="!sealForm.form.valid" i18n>Submit</button>
+  </form>
+</div>
+<div [hidden]="!submitted">
+  <h1 i18n>Your seal</h1>
+  <a href="{{seal.imageUrl}}" download>
+    <img i18n-alt alt="Download your freshly generated seal" class="seal" src="{{seal.imageUrl}}">
+  </a>
+  <p i18n>This is your electronic seal, ready to use when signing your PDFs. <a href="{{seal.imageUrl}}" download>Download</a> it now.</p>
+  <button class="btn btn-primary" (click)="submitted=false" i18n>Edit</button>
+</div>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7dbf0884435846fd8cf37e343c3038b171bc6dc0" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Stempel<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> is provided as free service and without any warranty. Please note that we save all seals you create together with your ip address for a limited time.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5cfaa9531d2f1e49d14dd100e5f656b316cb4d0" datatype="html">
+        <source>See the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>GitHub page<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> for license and well the code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97d5c0644dff3bfde7f2f6acb178ebdc470e4b37" datatype="html">
+        <source>Create your own seal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c21b167ac9283c658e908d0feaa220e2e3c8dbd" datatype="html">
+        <source>Stempel is a simple app that lets you create your own electronic seals, e.g. to electronically sign PDF documents.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="43fb13847d60e0ddfd3c1486cd235a661928e489" datatype="html">
+        <source>Please fill in your details below to create your own stamp.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ef0619a37140118b9e640c6cc36ee4e9fb4372a" datatype="html">
+        <source>Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5efcdddba678f5bb4bb74c273d493fdc7434112" datatype="html">
+        <source>
+        Company is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="729754dd19eb9ce0670b0aeb5a6ae60574c2c563" datatype="html">
+        <source>Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="836fb8d8e81c85a83285e640563b5b72d1e7bbe9" datatype="html">
+        <source>
+        Address is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6934d8edd276d59e050006fe91b695ebad0218f8" datatype="html">
+        <source>Phone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d88857fea1200f28b59e70022a229c53680bf8c" datatype="html">
+        <source>
+        Phone is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06c663bf1474713f57551123a46b34318543b67d" datatype="html">
+        <source>Reset</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1272684534673e2a8216d9b36ff8f54f21064e3c" datatype="html">
+        <source>Your seal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed3f0734e41aba737b5b5466912b73dcded06b68" datatype="html">
+        <source>Download your freshly generated seal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47bf45a18a6e72964aba939263f8f31586e348bf" datatype="html">
+        <source>This is your electronic seal, ready to use when signing your PDFs. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Download<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> it now.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+        <source>Edit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/seal-gen/seal-gen.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
