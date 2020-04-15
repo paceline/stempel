@@ -12,7 +12,7 @@ Run `node index.js` for a dev server. Navigate to `http://localhost:8080/`.
 
 ## Demo
 
-There is a demo installation available at `http://stempel.moehring.me/`.
+There is a demo installation available at `https://stempel-app.herokuapp.com/`.
 
 
 ## Feedback / contribute
