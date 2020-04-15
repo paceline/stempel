@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "node index.js",
-    "build": "ng build",
+    "build": "ng build --prod --localize",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod --localize --output-path dist"
+    "postinstall": "ng build --output-path dist"
   },
   "private": true,
   "dependencies": {
