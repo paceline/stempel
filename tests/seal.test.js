@@ -25,8 +25,7 @@ describe('Generate and return seal', () => {
       .post('/api/seal')
       .send({
         company: "RoutIT GmbH",
-        address1: "Prinzenallee 7",
-        address2: "40459 Düsseldorf",
+        address: "Prinzenallee 7\n40459 Düsseldorf",
         phone: "0211 41 872 080"
       })
     expect(res.statusCode).toEqual(200)
@@ -37,8 +36,7 @@ describe('Generate and return seal', () => {
     const res = await request(app)
       .post('/api/seal')
       .send({
-        address1: "Prinzenallee 7",
-        address2: "40459 Düsseldorf",
+        address: "Prinzenallee 7\n40459 Düsseldorf",
         phone: "0211 41 872 080"
       })
     expect(res.statusCode).toEqual(400)
@@ -50,8 +48,7 @@ describe('Generate and return seal', () => {
       .post('/api/seal')
       .send({
         company: "",
-        address1: "Prinzenallee 7",
-        address2: "40459 Düsseldorf",
+        address: "Prinzenallee 7\n40459 Düsseldorf",
         phone: "0211 41 872 080"
       })
     expect(res.statusCode).toEqual(400)

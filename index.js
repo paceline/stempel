@@ -2,7 +2,7 @@ const app = require('./server.js')
 
 // Hook up mongoose
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/stempel', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }, (err, db) => {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/stempel", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }, (err, db) => {
   if (err) {
     console.log('MongoDB connection error: ' + err.message);
     process.exit(1);
