@@ -1,8 +1,10 @@
 const app = require('./server.js')
+require('dotenv').config()
 
 // Hook up mongoose
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/stempel", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }, (err, db) => {
+var db_uri = ((process.env.NODE_ENV !== 'production') ? process.env.DB_DEVELOPMENT : process.env.DB_PRODUCTION);
+mongoose.connect(db_uri, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }, (err, db) => {
   if (err) {
     console.log('MongoDB connection error: ' + err.message);
     process.exit(1);

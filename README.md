@@ -28,3 +28,4 @@ A quick laundry list of things still to implement:
 * Limit access to backend service (TBD)
 * Captcha or something to fend off bots (TBD)
 * Automatically remove files after x hours
+* IP check not returning end user ip
